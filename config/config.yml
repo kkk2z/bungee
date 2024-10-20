@@ -1,0 +1,9 @@
+host: 0.0.0.0:25577
+remote:
+  - priority: 
+      - my-server  # サーバー名を設定
+    name: JapanBoom
+    address: japanboom.aternos.me
+  # Minecraftサーバーのアドレス
+
+# プラグイン用の設定を追加する場合はここに記載

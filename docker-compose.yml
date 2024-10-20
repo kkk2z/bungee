@@ -1,0 +1,9 @@
+services:
+  bungee:
+    build: .
+    ports:
+      - "25577:25577"
+      - "8081:8081"
+    volumes:
+      - ./config:/app/config
+    restart: unless-stopped
